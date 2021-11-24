@@ -6,7 +6,7 @@ from pymodbus.transaction import ModbusRtuFramer
 from calculo_tot2 import energiaTot as energia
 import math
 import struct
-#entiendo
+
 class modbusRTU:
     def __init__(self, device):         
         self.device=device     
